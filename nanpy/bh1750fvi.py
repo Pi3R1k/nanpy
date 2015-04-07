@@ -5,7 +5,7 @@ from nanpy.i2c import I2C_Master
 
 log = logging.getLogger(__name__)
 
-class Bh750Fvi(object):
+class Bh1750Fvi(object):
 
     def __init__(self, wire):
         self.i2c = I2C_Master(wire)
